@@ -1,12 +1,12 @@
-# Foundation Compass Template
+# Personal site for Kevin Wongmanee
 
-The easiest way to get started with Foundation + Compass.
+This is the personal site for Kevin Wongmanee
 
-## Requirements
+## Something here
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
+  * Something here
+  * [Foundation](http://nodejs.org)
+  * [Compass](http://compass-style.org/): `gem install compass`
   * [bower](http://bower.io): `npm install bower -g`
 
 ## Quickstart
