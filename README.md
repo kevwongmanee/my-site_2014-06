@@ -31,4 +31,5 @@ Run `grunt build-dev` to build a dist directory. These are the final files that 
 * Incorporate icon fonts
 * Consolidate how I override Foundation's SCSS files
 * Write better SASS
+* Screenshots need a retina version
 
