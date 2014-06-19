@@ -4,10 +4,9 @@ This is the personal site for Kevin Wongmanee
 
 ## What was used
 
-  
   * [Foundation](http://foundation.zurb.com/)
-  * [Grunt](http://gruntjs.com/) `gem install compass`
-  * [Node](http://nodejs.org) `npm install bower -g`
+  * [Grunt](http://gruntjs.com/)
+  * [Node](http://nodejs.org)
 
 ## Foundation
 
