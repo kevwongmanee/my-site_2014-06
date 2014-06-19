@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Carme);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+
+body{
+	background: #eef0f0;
+}
+h1{
+	font-size: 2.2em;
+	font-weight: bold;
+	font-family: 'Carme', sans-serif;
+	color: #13171a;
+	text-align: center;
+}
+h2{
+	font-size: 1.4em;
+	font-family: 'Carme', sans-serif;
+	text-align: center;
+}
+
+.border{
+	// border: 1px solid black;
+	// @include radius(10px);
+	// margin: .8em .25em;
+	
+	// padding: 0 .2em;
+
+}
+
+.main{
+	font: {
+		size: 1.4em;
+		family: Jubilat, Georgia, serif;
+	}
+	color: #404244;
+	text-align: justify;
+
+}
+.main2{
+	text-align: left;
+}
+.tab-bar{
+	background: none !important;
+}
+.left-small{
+	background-color:#333 !important;
+	@include radius(8px);
+}
+
+
+.centered{
+	margin: 0 auto;
+	display: block !important;
+}
+
+
+.screendesc{
+	width: 300px;
+}
+.desc{
+	line-height: 1.4;
+	margin-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: .9em;
+}
+a{
+	color:#1319ED;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+
+	&:hover{
+		text-decoration: underline;
+		color:#27AFE4;
+	}
+}
+
+.i{
+	font-style: italic;
+}
+
+.screen-img{
+	border: 1px solid black;
+}
