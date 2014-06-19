@@ -53,7 +53,7 @@ module.exports = function(grunt) {
             //         livereload: false
             //     },
             //     files: SRC + 'js/**/*.js',
-            //     tasks: ['jshint:source', 'concat:local']
+            //     tasks: ['jshint:source', 'concat:dev']
             // },
             // jsDist: {
             //     options: {
@@ -139,7 +139,7 @@ module.exports = function(grunt) {
         //         separator: ';\n',
         //         banner: '/*! <%= pkg.name %> - Build Date: <%= grunt.template.today("mm-dd-yyyy, h:MM:ss TT") %> */\n'
         //     },
-        //     local: {
+        //     dev: {
         //         src: [
         //             SRC + 'js/**/*.js',
         //         ],
@@ -154,7 +154,7 @@ module.exports = function(grunt) {
                     drop_console: true
                 }
             },
-            local: {
+            dev: {
                 options: {
                     compress: {
                         drop_console: false
@@ -165,7 +165,6 @@ module.exports = function(grunt) {
                         SRC + 'js/lib/custom.modernizr.js',
                         SRC + 'js/lib/jquery.js',
                         SRC + 'js/vendor/foundation.min.js'
-                        
                     ]
                 }
             }
@@ -212,8 +211,6 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['connect', 'watch']);
-    grunt.registerTask('build-local', ['newer:copy','newer:sass','uglify:local']);
-    // grunt.registerTask('build-local', ['newer:copy','newer:sass','uglify:local']);
-    // grunt.registerTask('build-dev', ['newer:copy','newer:sass','uglify:dev']);
-    // grunt.registerTask('build-prod', ['newer:copy','newer:sass','uglify:prod']);
+    grunt.registerTask('build-dev', ['newer:copy','newer:sass','uglify:dev']);
+    
 };
