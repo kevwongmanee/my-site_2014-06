@@ -2,28 +2,26 @@
 
 This is the personal site for Kevin Wongmanee
 
-## Something here
+## What was used
 
-  * Something here
-  * [Foundation](http://nodejs.org)
-  * [Compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
-
-## Quickstart
-
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
   
-Then when you're working on your project, just run the following command:
+  * [Foundation](http://foundation.zurb.com/)
+  * [Grunt](http://gruntjs.com/) `gem install compass`
+  * [Node](http://nodejs.org) `npm install bower -g`
+
+## Foundation
+
+Instead of grabbing foundation from the site, I grabbed the scss files from the [Foundation Repo](https://github.com/zurb/foundation/tree/master/scss)
+
+# How to get started
+
+## Load dependencies, run:
 
 ```bash
-compass watch
+npm install
 ```
 
-## Upgrading
+## Build dist directory for deployment
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
+Run `grunt build-local` to build a dist directory. These are the final files that will be used. 
 
-```bash
-bower update
-```
