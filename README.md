@@ -23,5 +23,5 @@ npm install
 
 ### Build dist directory for deployment
 
-Run `grunt build-local` to build a dist directory. These are the final files that will be used. 
+Run `grunt build-dev` to build a dist directory. These are the final files that will be used. 
 
