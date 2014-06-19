@@ -10,7 +10,8 @@ This is the personal site for Kevin Wongmanee
 
 ### Foundation
 
-Instead of grabbing foundation from the site, I grabbed the scss files from the [Foundation Repo](https://github.com/zurb/foundation/tree/master/scss)
+Instead of grabbing foundation from the site, I grabbed the scss files from the [Foundation Repo](https://github.com/zurb/foundation/tree/master/scss)<br>
+I grabbed foundation.min.js from foundation 5.2.3 download
 
 ## How to get started
 
