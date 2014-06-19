@@ -25,3 +25,10 @@ npm install
 
 Run `grunt build-dev` to build a dist directory. These are the final files that will be used. 
 
+##TODO
+
+* Would like to incorporate a color scheme
+* Incorporate icon fonts
+* Consolidate how I override Foundation's SCSS files
+* Write better SASS
+
